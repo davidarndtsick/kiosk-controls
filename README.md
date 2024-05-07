@@ -32,7 +32,7 @@ This macro has the following features:
 
 ### Exiting Kiosk Mode options:
 
-* Using the Macro UI Panel - If you have a Touch 10 or Webex Room Navigator paired with your Webex Device in controller mode. The Macros UI panel will be always be accessible even when Kiosk Mode is available. This easily allows you to exit Kiosk Mode by toggling the feature off using the panels UI.
+* Control Panel UI Extension - The macro saves a button to the Control Panel ( the slide out panel on the right of the Board or Desk Device ). While in Kiosk Mode, you can access the Control Panel by tapping three times with three fingers on the Kiosk Web App. Then by tapping the Kiosk Control button in the Control Panel, you will be prompted with a PIN before the Kiosk Controls Panel will open. Once opened, you can change the Kiosk URL or Select Exit Kiosk Mode.
 
 * Using the Kiosk Web App - It is possible for the Kiosk Web App to connect to the Desk or Board device in which it is running on and disable Kiosk mode. This example Web App demonstrates how to do this:
       https://github.com/wxsd-sales/exit-kiosk-web-app
