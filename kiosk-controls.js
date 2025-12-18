@@ -155,6 +155,7 @@ function setStandbyControl(mode) {
 function performRoomClean() {
   console.log('Performing Room Cleanup');
   xapi.Command.RoomCleanup.Run({ ContentType: ['TemporaryAccounts', 'Whiteboards', 'WebData'] });
+  xapi.Command.WebEngine.DeleteStorage({ Type: 'Kiosk' });
 }
 
 async function getKioskUrl() {
