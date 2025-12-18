@@ -1,3 +1,6 @@
+2025-12-18 - Added command to delete webengine storage for kiosk mode to prevent caching issues.
+
+
 # Kiosk Controls
 This is a Kiosk control macro which enables a user to select between different preconfigured URLs and enable/disable Kiosk mode on a Webex Device. This is useful in situations where an admin would like to delegate the selection of Kiosk Web Apps to local staff and also allow them to exit Kiosk mode and use the device for normal calling functions.
 
